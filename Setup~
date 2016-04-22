@@ -1,0 +1,3 @@
+ g++ -o TestCurl1.out Json_Parser.c client_shared.c mosquitto_pub.c SampleCurl.cpp -lcurl -lmosquitto -fpermissive
+ sudo apt-get install libmosquitto-dev
+
